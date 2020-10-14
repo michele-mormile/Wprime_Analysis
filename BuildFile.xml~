@@ -1,0 +1,20 @@
+<use name="PhysicsTools/Utilities"/>
+<use name="CondFormats/BTauObjects"/>
+<use name="CondTools/BTau"/>
+<use name="DataFormats/Math"/>
+<use name="rootgraphics"/>
+<use name="rootphysics"/>
+<use name="rootminuit"/>
+<use name="rootminuit2"/>
+<use name="root"/>
+<use name="roottmva"/>
+<use name="Wprime/WprimeAnalysis"/>
+<export>
+  <lib name="1"/>
+</export>
+<flags cxxflags="-g -ggdb -O0" />
+<environment>
+  <bin file="Cpp/Wprime_unpacking.cpp" name="Wprime_unpacking"></bin>
+  <bin file="Cpp/topTrueFalsePlot.cpp" name="topTrueFalsePlot"></bin>
+</environment>
+<flags EDM_PLUGIN="1"/>
